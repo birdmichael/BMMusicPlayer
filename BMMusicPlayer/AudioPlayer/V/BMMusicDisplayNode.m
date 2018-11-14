@@ -30,6 +30,7 @@ static const CGFloat kCoverPictureRippleCircleSize = 10;
 @property (nonatomic, strong) BMMusicTimerNode *timingNode;
 @property (nonatomic, strong) NSMutableArray<CALayer *> *rippleArray;
 @property (nonatomic, strong) NSMutableArray<CALayer *> *rippleCircleArray;
+@property (nonatomic, weak) CALayer * animationLayer;
 @property (nonatomic, assign) BOOL isTiming;
 
 
@@ -50,6 +51,7 @@ static const CGFloat kCoverPictureRippleCircleSize = 10;
 - (void)didLoad {
     [super didLoad];
     [self addAnimation];
+    [self addRippleAnimation];
     self.view.backgroundColor = BM_HEX_RGB(0x121112);
 }
 
@@ -101,6 +103,10 @@ static const CGFloat kCoverPictureRippleCircleSize = 10;
     animation.toValue = @(M_PI*2);
     [self.coverPictureNode.layer addAnimation:animation forKey:@"rotationAnimation"];
 //    return;
+    
+}
+
+- (void)addRippleAnimation {
     self.rippleArray = [@[] mutableCopy];
     self.rippleCircleArray = [@[] mutableCopy];
     CALayer * animationLayer = [CALayer layer];
@@ -109,7 +115,7 @@ static const CGFloat kCoverPictureRippleCircleSize = 10;
         CALayer * pulsingLayer = [CALayer layer];
         pulsingLayer.frame = CGRectMake(0, 0, maxRadius*2, maxRadius*2);
         pulsingLayer.position = CGPointMake(BM_FitW(kCoverPictureHW)/2, BM_FitW(kCoverPictureHW)/2);
-        pulsingLayer.backgroundColor = [[UIColor clearColor] CGColor];
+        pulsingLayer.backgroundColor = [UIColor clearColor].CGColor;
         pulsingLayer.cornerRadius = maxRadius;
         pulsingLayer.borderWidth = kCoverPictureRippleMaxBorderWidth;
         
@@ -162,8 +168,8 @@ static const CGFloat kCoverPictureRippleCircleSize = 10;
         opacityAnimation.removedOnCompletion = NO;
         opacityAnimation.fillMode = kCAFillModeForwards;
         
-        
-        animationGroup.animations = @[scaleAnimation, opacityAnimation,animation];
+        // 有一个位置问题，ASDK使用animationGroup 仅显示一个。
+//        animationGroup.animations = @[scaleAnimation, opacityAnimation,animation];
         [pulsingLayer addAnimation:scaleAnimation forKey:@"plulsing"];
         [pulsingLayer addAnimation:animation forKey:@"dsdasdasd"];
         [pulsingLayer addAnimation:opacityAnimation forKey:@"plulsidsadang"];
@@ -171,7 +177,7 @@ static const CGFloat kCoverPictureRippleCircleSize = 10;
         [self.rippleArray addObject:pulsingLayer];
         [self.rippleCircleArray addObject:lay];
     }
-    
+    _animationLayer = animationLayer;
     [self.coverPictureShadowNode.layer addSublayer:animationLayer];
 }
 
@@ -218,7 +224,6 @@ static const CGFloat kCoverPictureRippleCircleSize = 10;
     _coverPictureNode.layer.cornerRadius =BM_FitW(500)/2.0;
     _coverPictureNode.layer.masksToBounds = YES;
     _coverPictureNode.contentMode = UIViewContentModeScaleAspectFill;
-    _coverPictureNode.URL = [NSURL URLWithString:@"https://bawn.github.io/assets/images/avatar.jpg"];
     _coverPictureNode.placeholderFadeDuration = 3;
     __weak __typeof(self)weakSelf = self;
     _coverPictureNode.imageModificationBlock = ^UIImage * _Nullable(UIImage * _Nonnull image) {
@@ -313,9 +318,11 @@ static const CGFloat kCoverPictureRippleCircleSize = 10;
 
 - (void)updateCoverPictureRotating {
     if (!_palybtnNode.selected) {
+        // 停止动画
         CFTimeInterval pausedTime = [self.coverPictureNode.layer convertTime:CACurrentMediaTime() fromLayer:nil];
         self.coverPictureNode.layer.speed = 0.0;
         self.coverPictureNode.layer.timeOffset = pausedTime;
+        _animationLayer.hidden = YES;
     }else {
         CFTimeInterval pausedTime = [self.coverPictureNode.layer timeOffset];
         self.coverPictureNode.layer.speed = 1.0;
@@ -323,6 +330,7 @@ static const CGFloat kCoverPictureRippleCircleSize = 10;
         self.coverPictureNode.layer.beginTime = 0.0;
         CFTimeInterval timeSincePause = [self.coverPictureNode.layer convertTime:CACurrentMediaTime() fromLayer:nil] - pausedTime;
         self.coverPictureNode.layer.beginTime = timeSincePause;
+        _animationLayer.hidden = NO;
     }
 }
 - (void)playBtnSelected:(BOOL)select {

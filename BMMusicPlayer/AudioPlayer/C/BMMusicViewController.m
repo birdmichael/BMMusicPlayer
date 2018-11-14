@@ -104,7 +104,6 @@ static void *kBufferingRatioKVOKey = &kBufferingRatioKVOKey;
             if (self.player.playerState != BMMusicPlayerStatePlaying) {
                 [self resumeMusic];
             }
-
         }else {
             // 其他清空重新播放视频
             [self playMusic];
@@ -419,8 +418,6 @@ static void *kBufferingRatioKVOKey = &kBufferingRatioKVOKey;
 }
 
 - (void)updateBufferingStatus {
-//    NSString *str = [NSString stringWithFormat:@"Received %.2f/%.2f MB (%.2f %%), Speed %.2f MB/s", (double)[self.player receivedLength] / 1024 / 1024, (double)[_streamer expectedLength] / 1024 / 1024, [_streamer bufferingRatio] * 100.0, (double)[_streamer downloadSpeed] / 1024 / 1024];
-//    BMLOG(@"%@",str);
     
 }
 
