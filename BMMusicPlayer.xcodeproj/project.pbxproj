@@ -15,6 +15,49 @@
 		0123BAD2219C90FF006FC672 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BAD1219C90FF006FC672 /* main.m */; };
 		0123BADC219C90FF006FC672 /* BMMusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BADB219C90FF006FC672 /* BMMusicPlayerTests.m */; };
 		0123BAE7219C90FF006FC672 /* BMMusicPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BAE6219C90FF006FC672 /* BMMusicPlayerUITests.m */; };
+		0123BB0B219C91DA006FC672 /* BMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BAF5219C91DA006FC672 /* BMBaseViewController.m */; };
+		0123BB0C219C91DA006FC672 /* BMNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BAF6219C91DA006FC672 /* BMNavViewController.m */; };
+		0123BB0D219C91DA006FC672 /* BMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BAF7219C91DA006FC672 /* BMTabBar.m */; };
+		0123BB0E219C91DA006FC672 /* BMWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BAF8219C91DA006FC672 /* BMWebViewViewController.m */; };
+		0123BB0F219C91DA006FC672 /* BMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BAF9219C91DA006FC672 /* BMTabBarController.m */; };
+		0123BB10219C91DA006FC672 /* BMFullScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BAFA219C91DA006FC672 /* BMFullScreenViewController.m */; };
+		0123BB11219C91DA006FC672 /* BMUserDefaultKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB03219C91DA006FC672 /* BMUserDefaultKeys.m */; };
+		0123BB12219C91DA006FC672 /* BMNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB04219C91DA006FC672 /* BMNotifications.m */; };
+		0123BB13219C91DA006FC672 /* BMConstNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB09219C91DA006FC672 /* BMConstNumber.m */; };
+		0123BB14219C91DA006FC672 /* BMTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB0A219C91DA006FC672 /* BMTabBarItem.m */; };
+		0123BB2E219C9290006FC672 /* BMMusicSelectTimerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB19219C9290006FC672 /* BMMusicSelectTimerItem.m */; };
+		0123BB2F219C9290006FC672 /* BMMusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB1D219C9290006FC672 /* BMMusicPlayer.m */; };
+		0123BB30219C9290006FC672 /* BMMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB1E219C9290006FC672 /* BMMusicViewController.m */; };
+		0123BB31219C9290006FC672 /* BMMusicBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB21219C9290006FC672 /* BMMusicBar.m */; };
+		0123BB32219C9290006FC672 /* BMMusicDisplayNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB23219C9290006FC672 /* BMMusicDisplayNode.m */; };
+		0123BB33219C9290006FC672 /* BMCoverImageRippleAnimatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB25219C9290006FC672 /* BMCoverImageRippleAnimatView.m */; };
+		0123BB34219C9290006FC672 /* BMMusicSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB28219C9290006FC672 /* BMMusicSlider.m */; };
+		0123BB35219C9290006FC672 /* BMMusicSelectTimerNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB2A219C9290006FC672 /* BMMusicSelectTimerNode.m */; };
+		0123BB36219C9290006FC672 /* BMMusicTimerNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB2B219C9290006FC672 /* BMMusicTimerNode.m */; };
+		0123BB43219C9375006FC672 /* Sleep.json in Resources */ = {isa = PBXBuildFile; fileRef = 0123BB39219C9374006FC672 /* Sleep.json */; };
+		0123BB44219C9375006FC672 /* Meditate.json in Resources */ = {isa = PBXBuildFile; fileRef = 0123BB3A219C9374006FC672 /* Meditate.json */; };
+		0123BB45219C9375006FC672 /* ASMR.json in Resources */ = {isa = PBXBuildFile; fileRef = 0123BB3B219C9374006FC672 /* ASMR.json */; };
+		0123BB47219C9375006FC672 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 0123BB3D219C9374006FC672 /* data.json */; };
+		0123BB49219C9375006FC672 /* Video.json in Resources */ = {isa = PBXBuildFile; fileRef = 0123BB3F219C9374006FC672 /* Video.json */; };
+		0123BB4A219C9375006FC672 /* star.json in Resources */ = {isa = PBXBuildFile; fileRef = 0123BB40219C9374006FC672 /* star.json */; };
+		0123BB4B219C9375006FC672 /* Home.json in Resources */ = {isa = PBXBuildFile; fileRef = 0123BB41219C9374006FC672 /* Home.json */; };
+		0123BB5B219C940B006FC672 /* BMSleepModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB4F219C940B006FC672 /* BMSleepModel.m */; };
+		0123BB5C219C940B006FC672 /* BMItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB51219C940B006FC672 /* BMItemModel.m */; };
+		0123BB5D219C940B006FC672 /* BMHelpSleepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB54219C940B006FC672 /* BMHelpSleepViewController.m */; };
+		0123BB5E219C940B006FC672 /* BMHelpSleepViewSgementItemNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB58219C940B006FC672 /* BMHelpSleepViewSgementItemNode.m */; };
+		0123BB5F219C940B006FC672 /* BMHelpSleepCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB5A219C940B006FC672 /* BMHelpSleepCellNode.m */; };
+		0123BB77219C95E0006FC672 /* PaletteColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB64219C95DF006FC672 /* PaletteColorUtils.m */; };
+		0123BB78219C95E0006FC672 /* Palette.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB65219C95DF006FC672 /* Palette.m */; };
+		0123BB79219C95E0006FC672 /* PaletteSwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB66219C95DF006FC672 /* PaletteSwatch.m */; };
+		0123BB7A219C95E0006FC672 /* UIImage+Palette.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB68219C95DF006FC672 /* UIImage+Palette.m */; };
+		0123BB7B219C95E0006FC672 /* PaletteColorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB6F219C95DF006FC672 /* PaletteColorModel.m */; };
+		0123BB7C219C95E0006FC672 /* PriorityBoxArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB70219C95DF006FC672 /* PriorityBoxArray.m */; };
+		0123BB7D219C95E0006FC672 /* PaletteTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB71219C95DF006FC672 /* PaletteTarget.m */; };
+		0123BB7E219C95E0006FC672 /* ASButtonNode+BMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB74219C95DF006FC672 /* ASButtonNode+BMExtension.m */; };
+		0123BB7F219C95E0006FC672 /* ASButtonNode+BMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB76219C95E0006FC672 /* ASButtonNode+BMExtension.m */; };
+		0123BB82219C96BA006FC672 /* BMHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB81219C96BA006FC672 /* BMHttpManager.m */; };
+		0123BB85219C99D5006FC672 /* BMASMRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB84219C99D4006FC672 /* BMASMRViewController.m */; };
+		7E31BF842DA96A2AECEAC978 /* libPods-BMMusicPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 661E40DD23B277E324E24CA3 /* libPods-BMMusicPlayer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +94,89 @@
 		0123BAE2219C90FF006FC672 /* BMMusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMMusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0123BAE6219C90FF006FC672 /* BMMusicPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMMusicPlayerUITests.m; sourceTree = "<group>"; };
 		0123BAE8219C90FF006FC672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0123BAF5219C91DA006FC672 /* BMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMBaseViewController.m; sourceTree = "<group>"; };
+		0123BAF6219C91DA006FC672 /* BMNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMNavViewController.m; sourceTree = "<group>"; };
+		0123BAF7219C91DA006FC672 /* BMTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMTabBar.m; sourceTree = "<group>"; };
+		0123BAF8219C91DA006FC672 /* BMWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMWebViewViewController.m; sourceTree = "<group>"; };
+		0123BAF9219C91DA006FC672 /* BMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMTabBarController.m; sourceTree = "<group>"; };
+		0123BAFA219C91DA006FC672 /* BMFullScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMFullScreenViewController.m; sourceTree = "<group>"; };
+		0123BAFB219C91DA006FC672 /* BMTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMTabBarItem.h; sourceTree = "<group>"; };
+		0123BAFC219C91DA006FC672 /* BMTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMTabBar.h; sourceTree = "<group>"; };
+		0123BAFD219C91DA006FC672 /* BMNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMNavViewController.h; sourceTree = "<group>"; };
+		0123BAFE219C91DA006FC672 /* BMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMBaseViewController.h; sourceTree = "<group>"; };
+		0123BAFF219C91DA006FC672 /* BMWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMWebViewViewController.h; sourceTree = "<group>"; };
+		0123BB00219C91DA006FC672 /* BMFullScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMFullScreenViewController.h; sourceTree = "<group>"; };
+		0123BB01219C91DA006FC672 /* BMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMTabBarController.h; sourceTree = "<group>"; };
+		0123BB03219C91DA006FC672 /* BMUserDefaultKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMUserDefaultKeys.m; sourceTree = "<group>"; };
+		0123BB04219C91DA006FC672 /* BMNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMNotifications.m; sourceTree = "<group>"; };
+		0123BB05219C91DA006FC672 /* BMConstNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMConstNumber.h; sourceTree = "<group>"; };
+		0123BB06219C91DA006FC672 /* AppConstStringHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstStringHeader.h; sourceTree = "<group>"; };
+		0123BB07219C91DA006FC672 /* BMNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMNotifications.h; sourceTree = "<group>"; };
+		0123BB08219C91DA006FC672 /* BMUserDefaultKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMUserDefaultKeys.h; sourceTree = "<group>"; };
+		0123BB09219C91DA006FC672 /* BMConstNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMConstNumber.m; sourceTree = "<group>"; };
+		0123BB0A219C91DA006FC672 /* BMTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMTabBarItem.m; sourceTree = "<group>"; };
+		0123BB17219C9290006FC672 /* BMMusicSelectTimerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMusicSelectTimerItem.h; sourceTree = "<group>"; };
+		0123BB19219C9290006FC672 /* BMMusicSelectTimerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMMusicSelectTimerItem.m; sourceTree = "<group>"; };
+		0123BB1C219C9290006FC672 /* BMMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMusicViewController.h; sourceTree = "<group>"; };
+		0123BB1D219C9290006FC672 /* BMMusicPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMMusicPlayer.m; sourceTree = "<group>"; };
+		0123BB1E219C9290006FC672 /* BMMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMMusicViewController.m; sourceTree = "<group>"; };
+		0123BB1F219C9290006FC672 /* BMMusicPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMusicPlayer.h; sourceTree = "<group>"; };
+		0123BB21219C9290006FC672 /* BMMusicBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMMusicBar.m; sourceTree = "<group>"; };
+		0123BB22219C9290006FC672 /* BMMusicSelectTimerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMusicSelectTimerNode.h; sourceTree = "<group>"; };
+		0123BB23219C9290006FC672 /* BMMusicDisplayNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMMusicDisplayNode.m; sourceTree = "<group>"; };
+		0123BB24219C9290006FC672 /* BMMusicSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMusicSlider.h; sourceTree = "<group>"; };
+		0123BB25219C9290006FC672 /* BMCoverImageRippleAnimatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMCoverImageRippleAnimatView.m; sourceTree = "<group>"; };
+		0123BB26219C9290006FC672 /* BMMusicTimerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMusicTimerNode.h; sourceTree = "<group>"; };
+		0123BB27219C9290006FC672 /* BMMusicBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMusicBar.h; sourceTree = "<group>"; };
+		0123BB28219C9290006FC672 /* BMMusicSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMMusicSlider.m; sourceTree = "<group>"; };
+		0123BB29219C9290006FC672 /* BMMusicDisplayNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMusicDisplayNode.h; sourceTree = "<group>"; };
+		0123BB2A219C9290006FC672 /* BMMusicSelectTimerNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMMusicSelectTimerNode.m; sourceTree = "<group>"; };
+		0123BB2B219C9290006FC672 /* BMMusicTimerNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMMusicTimerNode.m; sourceTree = "<group>"; };
+		0123BB2C219C9290006FC672 /* BMCoverImageRippleAnimatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMCoverImageRippleAnimatView.h; sourceTree = "<group>"; };
+		0123BB38219C9374006FC672 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		0123BB39219C9374006FC672 /* Sleep.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Sleep.json; sourceTree = "<group>"; };
+		0123BB3A219C9374006FC672 /* Meditate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Meditate.json; sourceTree = "<group>"; };
+		0123BB3B219C9374006FC672 /* ASMR.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ASMR.json; sourceTree = "<group>"; };
+		0123BB3D219C9374006FC672 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		0123BB3F219C9374006FC672 /* Video.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Video.json; sourceTree = "<group>"; };
+		0123BB40219C9374006FC672 /* star.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = star.json; sourceTree = "<group>"; };
+		0123BB41219C9374006FC672 /* Home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Home.json; sourceTree = "<group>"; };
+		0123BB4F219C940B006FC672 /* BMSleepModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMSleepModel.m; sourceTree = "<group>"; };
+		0123BB50219C940B006FC672 /* BMItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMItemModel.h; sourceTree = "<group>"; };
+		0123BB51219C940B006FC672 /* BMItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMItemModel.m; sourceTree = "<group>"; };
+		0123BB52219C940B006FC672 /* BMSleepModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMSleepModel.h; sourceTree = "<group>"; };
+		0123BB54219C940B006FC672 /* BMHelpSleepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMHelpSleepViewController.m; sourceTree = "<group>"; };
+		0123BB55219C940B006FC672 /* BMHelpSleepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMHelpSleepViewController.h; sourceTree = "<group>"; };
+		0123BB57219C940B006FC672 /* BMHelpSleepCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMHelpSleepCellNode.h; sourceTree = "<group>"; };
+		0123BB58219C940B006FC672 /* BMHelpSleepViewSgementItemNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMHelpSleepViewSgementItemNode.m; sourceTree = "<group>"; };
+		0123BB59219C940B006FC672 /* BMHelpSleepViewSgementItemNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMHelpSleepViewSgementItemNode.h; sourceTree = "<group>"; };
+		0123BB5A219C940B006FC672 /* BMHelpSleepCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMHelpSleepCellNode.m; sourceTree = "<group>"; };
+		0123BB62219C95DF006FC672 /* iOSPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSPalette.h; sourceTree = "<group>"; };
+		0123BB64219C95DF006FC672 /* PaletteColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteColorUtils.m; sourceTree = "<group>"; };
+		0123BB65219C95DF006FC672 /* Palette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Palette.m; sourceTree = "<group>"; };
+		0123BB66219C95DF006FC672 /* PaletteSwatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteSwatch.m; sourceTree = "<group>"; };
+		0123BB67219C95DF006FC672 /* PriorityBoxArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriorityBoxArray.h; sourceTree = "<group>"; };
+		0123BB68219C95DF006FC672 /* UIImage+Palette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Palette.m"; sourceTree = "<group>"; };
+		0123BB69219C95DF006FC672 /* PaletteTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteTarget.h; sourceTree = "<group>"; };
+		0123BB6A219C95DF006FC672 /* PaletteSwatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteSwatch.h; sourceTree = "<group>"; };
+		0123BB6B219C95DF006FC672 /* Palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Palette.h; sourceTree = "<group>"; };
+		0123BB6C219C95DF006FC672 /* PaletteColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteColorUtils.h; sourceTree = "<group>"; };
+		0123BB6E219C95DF006FC672 /* PaletteColorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteColorModel.h; sourceTree = "<group>"; };
+		0123BB6F219C95DF006FC672 /* PaletteColorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteColorModel.m; sourceTree = "<group>"; };
+		0123BB70219C95DF006FC672 /* PriorityBoxArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriorityBoxArray.m; sourceTree = "<group>"; };
+		0123BB71219C95DF006FC672 /* PaletteTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteTarget.m; sourceTree = "<group>"; };
+		0123BB72219C95DF006FC672 /* UIImage+Palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Palette.h"; sourceTree = "<group>"; };
+		0123BB73219C95DF006FC672 /* ASButtonNode+BMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASButtonNode+BMExtension.h"; sourceTree = "<group>"; };
+		0123BB74219C95DF006FC672 /* ASButtonNode+BMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASButtonNode+BMExtension.m"; sourceTree = "<group>"; };
+		0123BB75219C95DF006FC672 /* ASButtonNode+BMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASButtonNode+BMExtension.h"; sourceTree = "<group>"; };
+		0123BB76219C95E0006FC672 /* ASButtonNode+BMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASButtonNode+BMExtension.m"; sourceTree = "<group>"; };
+		0123BB80219C96BA006FC672 /* BMHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMHttpManager.h; sourceTree = "<group>"; };
+		0123BB81219C96BA006FC672 /* BMHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMHttpManager.m; sourceTree = "<group>"; };
+		0123BB83219C99D4006FC672 /* BMASMRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMASMRViewController.h; sourceTree = "<group>"; };
+		0123BB84219C99D4006FC672 /* BMASMRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMASMRViewController.m; sourceTree = "<group>"; };
+		25BED5ED35893BF5615C02AA /* Pods-BMMusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMMusicPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-BMMusicPlayer/Pods-BMMusicPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		661E40DD23B277E324E24CA3 /* libPods-BMMusicPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BMMusicPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D7E005236F2C108891AC2F4 /* Pods-BMMusicPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMMusicPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BMMusicPlayer/Pods-BMMusicPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +184,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E31BF842DA96A2AECEAC978 /* libPods-BMMusicPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +212,8 @@
 				0123BADA219C90FF006FC672 /* BMMusicPlayerTests */,
 				0123BAE5219C90FF006FC672 /* BMMusicPlayerUITests */,
 				0123BAC0219C90FE006FC672 /* Products */,
+				2792521EFF1468F4B593360B /* Pods */,
+				586E99F1BEAB25FD48BB0477 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +230,11 @@
 		0123BAC1219C90FE006FC672 /* BMMusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				0123BB60219C95BE006FC672 /* Tools */,
+				0123BB4D219C940B006FC672 /* HelpSleep */,
+				0123BB37219C9374006FC672 /* Support Files */,
+				0123BB15219C9290006FC672 /* AudioPlayer */,
+				0123BAF4219C91DA006FC672 /* Base */,
 				0123BAC2219C90FE006FC672 /* AppDelegate.h */,
 				0123BAC3219C90FE006FC672 /* AppDelegate.m */,
 				0123BAC5219C90FE006FC672 /* ViewController.h */,
@@ -132,6 +266,218 @@
 			path = BMMusicPlayerUITests;
 			sourceTree = "<group>";
 		};
+		0123BAF4219C91DA006FC672 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0123BAF5219C91DA006FC672 /* BMBaseViewController.m */,
+				0123BAF6219C91DA006FC672 /* BMNavViewController.m */,
+				0123BAF7219C91DA006FC672 /* BMTabBar.m */,
+				0123BAF8219C91DA006FC672 /* BMWebViewViewController.m */,
+				0123BAF9219C91DA006FC672 /* BMTabBarController.m */,
+				0123BAFA219C91DA006FC672 /* BMFullScreenViewController.m */,
+				0123BAFB219C91DA006FC672 /* BMTabBarItem.h */,
+				0123BAFC219C91DA006FC672 /* BMTabBar.h */,
+				0123BAFD219C91DA006FC672 /* BMNavViewController.h */,
+				0123BAFE219C91DA006FC672 /* BMBaseViewController.h */,
+				0123BAFF219C91DA006FC672 /* BMWebViewViewController.h */,
+				0123BB00219C91DA006FC672 /* BMFullScreenViewController.h */,
+				0123BB01219C91DA006FC672 /* BMTabBarController.h */,
+				0123BB02219C91DA006FC672 /* Header */,
+				0123BB0A219C91DA006FC672 /* BMTabBarItem.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0123BB02219C91DA006FC672 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				0123BB03219C91DA006FC672 /* BMUserDefaultKeys.m */,
+				0123BB04219C91DA006FC672 /* BMNotifications.m */,
+				0123BB05219C91DA006FC672 /* BMConstNumber.h */,
+				0123BB06219C91DA006FC672 /* AppConstStringHeader.h */,
+				0123BB07219C91DA006FC672 /* BMNotifications.h */,
+				0123BB08219C91DA006FC672 /* BMUserDefaultKeys.h */,
+				0123BB09219C91DA006FC672 /* BMConstNumber.m */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		0123BB15219C9290006FC672 /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				0123BB16219C9290006FC672 /* M */,
+				0123BB1B219C9290006FC672 /* C */,
+				0123BB20219C9290006FC672 /* V */,
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		0123BB16219C9290006FC672 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				0123BB17219C9290006FC672 /* BMMusicSelectTimerItem.h */,
+				0123BB19219C9290006FC672 /* BMMusicSelectTimerItem.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		0123BB1B219C9290006FC672 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				0123BB1C219C9290006FC672 /* BMMusicViewController.h */,
+				0123BB1D219C9290006FC672 /* BMMusicPlayer.m */,
+				0123BB1E219C9290006FC672 /* BMMusicViewController.m */,
+				0123BB1F219C9290006FC672 /* BMMusicPlayer.h */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		0123BB20219C9290006FC672 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				0123BB21219C9290006FC672 /* BMMusicBar.m */,
+				0123BB22219C9290006FC672 /* BMMusicSelectTimerNode.h */,
+				0123BB23219C9290006FC672 /* BMMusicDisplayNode.m */,
+				0123BB24219C9290006FC672 /* BMMusicSlider.h */,
+				0123BB25219C9290006FC672 /* BMCoverImageRippleAnimatView.m */,
+				0123BB26219C9290006FC672 /* BMMusicTimerNode.h */,
+				0123BB27219C9290006FC672 /* BMMusicBar.h */,
+				0123BB28219C9290006FC672 /* BMMusicSlider.m */,
+				0123BB29219C9290006FC672 /* BMMusicDisplayNode.h */,
+				0123BB2A219C9290006FC672 /* BMMusicSelectTimerNode.m */,
+				0123BB2B219C9290006FC672 /* BMMusicTimerNode.m */,
+				0123BB2C219C9290006FC672 /* BMCoverImageRippleAnimatView.h */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		0123BB37219C9374006FC672 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0123BB38219C9374006FC672 /* Prefix.pch */,
+				0123BB39219C9374006FC672 /* Sleep.json */,
+				0123BB3A219C9374006FC672 /* Meditate.json */,
+				0123BB3B219C9374006FC672 /* ASMR.json */,
+				0123BB3D219C9374006FC672 /* data.json */,
+				0123BB3F219C9374006FC672 /* Video.json */,
+				0123BB40219C9374006FC672 /* star.json */,
+				0123BB41219C9374006FC672 /* Home.json */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		0123BB4D219C940B006FC672 /* HelpSleep */ = {
+			isa = PBXGroup;
+			children = (
+				0123BB4E219C940B006FC672 /* M */,
+				0123BB53219C940B006FC672 /* C */,
+				0123BB56219C940B006FC672 /* V */,
+			);
+			path = HelpSleep;
+			sourceTree = "<group>";
+		};
+		0123BB4E219C940B006FC672 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				0123BB4F219C940B006FC672 /* BMSleepModel.m */,
+				0123BB50219C940B006FC672 /* BMItemModel.h */,
+				0123BB51219C940B006FC672 /* BMItemModel.m */,
+				0123BB52219C940B006FC672 /* BMSleepModel.h */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		0123BB53219C940B006FC672 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				0123BB83219C99D4006FC672 /* BMASMRViewController.h */,
+				0123BB84219C99D4006FC672 /* BMASMRViewController.m */,
+				0123BB54219C940B006FC672 /* BMHelpSleepViewController.m */,
+				0123BB55219C940B006FC672 /* BMHelpSleepViewController.h */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		0123BB56219C940B006FC672 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				0123BB57219C940B006FC672 /* BMHelpSleepCellNode.h */,
+				0123BB58219C940B006FC672 /* BMHelpSleepViewSgementItemNode.m */,
+				0123BB59219C940B006FC672 /* BMHelpSleepViewSgementItemNode.h */,
+				0123BB5A219C940B006FC672 /* BMHelpSleepCellNode.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		0123BB60219C95BE006FC672 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0123BB80219C96BA006FC672 /* BMHttpManager.h */,
+				0123BB81219C96BA006FC672 /* BMHttpManager.m */,
+				0123BB75219C95DF006FC672 /* ASButtonNode+BMExtension.h */,
+				0123BB76219C95E0006FC672 /* ASButtonNode+BMExtension.m */,
+				0123BB61219C95DF006FC672 /* iOSPalette */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0123BB61219C95DF006FC672 /* iOSPalette */ = {
+			isa = PBXGroup;
+			children = (
+				0123BB62219C95DF006FC672 /* iOSPalette.h */,
+				0123BB63219C95DF006FC672 /* Source */,
+				0123BB73219C95DF006FC672 /* ASButtonNode+BMExtension.h */,
+				0123BB74219C95DF006FC672 /* ASButtonNode+BMExtension.m */,
+			);
+			path = iOSPalette;
+			sourceTree = "<group>";
+		};
+		0123BB63219C95DF006FC672 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0123BB64219C95DF006FC672 /* PaletteColorUtils.m */,
+				0123BB65219C95DF006FC672 /* Palette.m */,
+				0123BB66219C95DF006FC672 /* PaletteSwatch.m */,
+				0123BB67219C95DF006FC672 /* PriorityBoxArray.h */,
+				0123BB68219C95DF006FC672 /* UIImage+Palette.m */,
+				0123BB69219C95DF006FC672 /* PaletteTarget.h */,
+				0123BB6A219C95DF006FC672 /* PaletteSwatch.h */,
+				0123BB6B219C95DF006FC672 /* Palette.h */,
+				0123BB6C219C95DF006FC672 /* PaletteColorUtils.h */,
+				0123BB6D219C95DF006FC672 /* Model */,
+				0123BB70219C95DF006FC672 /* PriorityBoxArray.m */,
+				0123BB71219C95DF006FC672 /* PaletteTarget.m */,
+				0123BB72219C95DF006FC672 /* UIImage+Palette.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		0123BB6D219C95DF006FC672 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0123BB6E219C95DF006FC672 /* PaletteColorModel.h */,
+				0123BB6F219C95DF006FC672 /* PaletteColorModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2792521EFF1468F4B593360B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D7E005236F2C108891AC2F4 /* Pods-BMMusicPlayer.debug.xcconfig */,
+				25BED5ED35893BF5615C02AA /* Pods-BMMusicPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		586E99F1BEAB25FD48BB0477 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				661E40DD23B277E324E24CA3 /* libPods-BMMusicPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +485,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0123BAEB219C90FF006FC672 /* Build configuration list for PBXNativeTarget "BMMusicPlayer" */;
 			buildPhases = (
+				7E44F29531346769DA6C7014 /* [CP] Check Pods Manifest.lock */,
 				0123BABB219C90FE006FC672 /* Sources */,
 				0123BABC219C90FE006FC672 /* Frameworks */,
 				0123BABD219C90FE006FC672 /* Resources */,
+				A9ADE27C722E0C16CEB7EA09 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +583,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0123BB45219C9375006FC672 /* ASMR.json in Resources */,
 				0123BACF219C90FF006FC672 /* LaunchScreen.storyboard in Resources */,
+				0123BB49219C9375006FC672 /* Video.json in Resources */,
 				0123BACC219C90FF006FC672 /* Assets.xcassets in Resources */,
+				0123BB47219C9375006FC672 /* data.json in Resources */,
+				0123BB4B219C9375006FC672 /* Home.json in Resources */,
+				0123BB4A219C9375006FC672 /* star.json in Resources */,
+				0123BB44219C9375006FC672 /* Meditate.json in Resources */,
 				0123BACA219C90FE006FC672 /* Main.storyboard in Resources */,
+				0123BB43219C9375006FC672 /* Sleep.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +612,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7E44F29531346769DA6C7014 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BMMusicPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9ADE27C722E0C16CEB7EA09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BMMusicPlayer/Pods-BMMusicPlayer-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BMMusicPlayer/Pods-BMMusicPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0123BABB219C90FE006FC672 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0123BB7C219C95E0006FC672 /* PriorityBoxArray.m in Sources */,
+				0123BB5C219C940B006FC672 /* BMItemModel.m in Sources */,
+				0123BB32219C9290006FC672 /* BMMusicDisplayNode.m in Sources */,
+				0123BB14219C91DA006FC672 /* BMTabBarItem.m in Sources */,
+				0123BB5F219C940B006FC672 /* BMHelpSleepCellNode.m in Sources */,
+				0123BB5B219C940B006FC672 /* BMSleepModel.m in Sources */,
+				0123BB5D219C940B006FC672 /* BMHelpSleepViewController.m in Sources */,
+				0123BB0E219C91DA006FC672 /* BMWebViewViewController.m in Sources */,
+				0123BB7A219C95E0006FC672 /* UIImage+Palette.m in Sources */,
+				0123BB13219C91DA006FC672 /* BMConstNumber.m in Sources */,
+				0123BB85219C99D5006FC672 /* BMASMRViewController.m in Sources */,
+				0123BB36219C9290006FC672 /* BMMusicTimerNode.m in Sources */,
+				0123BB77219C95E0006FC672 /* PaletteColorUtils.m in Sources */,
 				0123BAC7219C90FE006FC672 /* ViewController.m in Sources */,
+				0123BB82219C96BA006FC672 /* BMHttpManager.m in Sources */,
 				0123BAD2219C90FF006FC672 /* main.m in Sources */,
+				0123BB7B219C95E0006FC672 /* PaletteColorModel.m in Sources */,
+				0123BB11219C91DA006FC672 /* BMUserDefaultKeys.m in Sources */,
+				0123BB7E219C95E0006FC672 /* ASButtonNode+BMExtension.m in Sources */,
+				0123BB30219C9290006FC672 /* BMMusicViewController.m in Sources */,
+				0123BB35219C9290006FC672 /* BMMusicSelectTimerNode.m in Sources */,
+				0123BB10219C91DA006FC672 /* BMFullScreenViewController.m in Sources */,
+				0123BB2F219C9290006FC672 /* BMMusicPlayer.m in Sources */,
+				0123BB79219C95E0006FC672 /* PaletteSwatch.m in Sources */,
+				0123BB0D219C91DA006FC672 /* BMTabBar.m in Sources */,
+				0123BB33219C9290006FC672 /* BMCoverImageRippleAnimatView.m in Sources */,
+				0123BB78219C95E0006FC672 /* Palette.m in Sources */,
+				0123BB0B219C91DA006FC672 /* BMBaseViewController.m in Sources */,
+				0123BB2E219C9290006FC672 /* BMMusicSelectTimerItem.m in Sources */,
+				0123BB34219C9290006FC672 /* BMMusicSlider.m in Sources */,
+				0123BB5E219C940B006FC672 /* BMHelpSleepViewSgementItemNode.m in Sources */,
 				0123BAC4219C90FE006FC672 /* AppDelegate.m in Sources */,
+				0123BB31219C9290006FC672 /* BMMusicBar.m in Sources */,
+				0123BB0F219C91DA006FC672 /* BMTabBarController.m in Sources */,
+				0123BB0C219C91DA006FC672 /* BMNavViewController.m in Sources */,
+				0123BB7D219C95E0006FC672 /* PaletteTarget.m in Sources */,
+				0123BB7F219C95E0006FC672 /* ASButtonNode+BMExtension.m in Sources */,
+				0123BB12219C91DA006FC672 /* BMNotifications.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,10 +872,13 @@
 		};
 		0123BAEC219C90FF006FC672 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D7E005236F2C108891AC2F4 /* Pods-BMMusicPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57MUWF2MWZ;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "BMMusicPlayer/Support Files/Prefix.pch";
 				INFOPLIST_FILE = BMMusicPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,10 +892,13 @@
 		};
 		0123BAED219C90FF006FC672 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25BED5ED35893BF5615C02AA /* Pods-BMMusicPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57MUWF2MWZ;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "BMMusicPlayer/Support Files/Prefix.pch";
 				INFOPLIST_FILE = BMMusicPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

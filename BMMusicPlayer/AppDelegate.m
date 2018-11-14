@@ -7,8 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "BMTabBarController.h"
+#import "BMTabBarItem.h"
+#import "BMNavViewController.h"
+#import "BMHelpSleepViewController.h"
+#import "BMASMRViewController.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () <UITabBarControllerDelegate>
 
 @end
 
@@ -16,8 +21,57 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // 配置全局界面
+    [self setupMainTab];
+    [self initAppearance];
     return YES;
+}
+
+- (void)setupMainTab {
+    //init tab
+    BMTabBarController *tabBarController = [[BMTabBarController alloc] init];
+    tabBarController.delegate = self;
+    tabBarController.tabBar.contentMode = UIViewContentModeScaleAspectFill;
+    NSMutableArray *controllers = [NSMutableArray array];
+    
+    // 自定义
+    NSArray *tabBarKey = @[@"name",@"ControllerClass"];
+    NSArray *tabBarValues = @[@{tabBarKey[0]:@"Home",tabBarKey[1]:[BMHelpSleepViewController class]},
+                              @{tabBarKey[0]:@"Sleep",tabBarKey[1]:[BMASMRViewController class]},
+                              @{tabBarKey[0]:@"Meditate",tabBarKey[1]:[BMHelpSleepViewController class]},
+                              @{tabBarKey[0]:@"ASMR",tabBarKey[1]:[BMASMRViewController class]},
+                              @{tabBarKey[0]:@"Video",tabBarKey[1]:[BMHelpSleepViewController class]},
+                              ];
+    for (NSDictionary *barValue in tabBarValues) {
+        Class class = [barValue valueForKey:tabBarKey[1]]?:[UIViewController class];
+        UIViewController *vc = [[class  alloc]init];
+        BMTabBarItem *item = [[BMTabBarItem alloc] init];
+        item.tag = [tabBarValues indexOfObject:barValue];
+        vc.tabBarItem = item;
+        vc.tabBarItem.image = [UIImage imageNamed:barValue[tabBarKey[0]]];
+        vc.tabBarItem.title = barValue[tabBarKey[0]];
+        BMNavViewController * vcNav = [[BMNavViewController alloc]initWithRootViewController:vc];
+        
+        [controllers addObject:vcNav];
+    }
+    
+    
+    //config tab
+    tabBarController.viewControllers = controllers;
+    tabBarController.customizableViewControllers = controllers;
+    tabBarController.tabBar.selectionIndicatorImage = [[UIImage alloc] init];
+    tabBarController.selectedIndex = 0;
+    
+    self.window.rootViewController = tabBarController;
+}
+
+-(void)initAppearance {
+    
+    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], NSForegroundColorAttributeName, nil]];
+    self.window.backgroundColor = KBM_CLAM_BACKGROUND_COLER;
+    [self.window makeKeyAndVisible];
+    //搜索取消字体颜色
 }
 
 

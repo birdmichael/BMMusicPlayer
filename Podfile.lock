@@ -1,0 +1,120 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - BMPrivatePods (0.1.6.15.13):
+    - BMPrivatePods/BMCFunctions (= 0.1.6.15.13)
+    - BMPrivatePods/BMHelper (= 0.1.6.15.13)
+    - BMPrivatePods/BMMacro (= 0.1.6.15.13)
+    - BMPrivatePods/BMSafeNil (= 0.1.6.15.13)
+    - BMPrivatePods/BMSwizzleMethod (= 0.1.6.15.13)
+    - BMPrivatePods/UIColor (= 0.1.6.15.13)
+    - BMPrivatePods/UIKit (= 0.1.6.15.13)
+  - BMPrivatePods/BMCFunctions (0.1.6.15.13)
+  - BMPrivatePods/BMHelper (0.1.6.15.13)
+  - BMPrivatePods/BMMacro (0.1.6.15.13)
+  - BMPrivatePods/BMSafeNil (0.1.6.15.13)
+  - BMPrivatePods/BMSwizzleMethod (0.1.6.15.13):
+    - BMPrivatePods/BMSafeNil
+  - BMPrivatePods/UIColor (0.1.6.15.13)
+  - BMPrivatePods/UIKit (0.1.6.15.13):
+    - BMPrivatePods/UIColor
+  - FDFullscreenPopGesture (1.1)
+  - FreeStreamer (3.8.3):
+    - Reachability (~> 3.0)
+  - GPUImage (0.1.7)
+  - lottie-ios (2.5.2)
+  - Masonry (1.1.0)
+  - MJExtension (3.0.15.1)
+  - PINCache (3.0.1-beta.6):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
+    - PINCache/Core (= 3.0.1-beta.6)
+  - PINCache/Arc-exception-safe (3.0.1-beta.6):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.6):
+    - PINOperation (~> 1.1.0)
+  - PINOperation (1.1.1)
+  - PINRemoteImage/Core (3.0.0-beta.13):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.13):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.13):
+    - PINCache (= 3.0.1-beta.6)
+    - PINRemoteImage/Core
+  - Reachability (3.2)
+  - SVProgressHUD (2.2.5)
+  - Texture (2.6):
+    - Texture/PINRemoteImage (= 2.6)
+  - Texture/Core (2.6)
+  - Texture/PINRemoteImage (2.6):
+    - PINRemoteImage/iOS (= 3.0.0-beta.13)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BMPrivatePods
+  - FDFullscreenPopGesture (~> 1.1)
+  - FreeStreamer
+  - GPUImage
+  - lottie-ios
+  - Masonry
+  - MJExtension
+  - SVProgressHUD
+  - Texture (>= 2.0)
+  - YYKit
+
+SPEC REPOS:
+  https://github.com/birdmichael/BMPrivatePodsSepcRepo.git:
+    - BMPrivatePods
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - FDFullscreenPopGesture
+    - FreeStreamer
+    - GPUImage
+    - lottie-ios
+    - Masonry
+    - MJExtension
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - Reachability
+    - SVProgressHUD
+    - Texture
+    - YYKit
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BMPrivatePods: a883f477a02fc0beef59db401754f195247a7946
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  FreeStreamer: b205b0bf6a2e7855f935369145498f930eb27cac
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
+  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
+  PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  Texture: 7249074582daf75e524e59df5428b66b8e8db0e4
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: da3cb4b791751af392062384a1dfa57f1a189ac5
+
+COCOAPODS: 1.5.3

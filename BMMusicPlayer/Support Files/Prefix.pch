@@ -1,0 +1,35 @@
+//
+//  mocha-Prefix.pch
+//  Calm
+//
+//  Created by BirdMichael on 2018/10/15.
+//  Copyright © 2018 BirdMichael. All rights reserved.
+//
+
+
+#import "BMPrivatePodsHeader.h"
+#import "BMUserDefaultKeys.h"
+#import "BMNotifications.h"
+#import "AppConstStringHeader.h"
+#import "Masonry.h"
+#import <AsyncDisplayKit/AsyncDisplayKit.h>
+
+
+
+#pragma mark ——— base
+#import "BMFullScreenViewController.h"
+#import "BMBaseViewController.h"
+#import "BMConstNumber.h"
+#import "BMWebViewViewController.h"
+
+#pragma mark ——— 单利
+#import "BMMusicViewController.h"
+#import "BMMusicBar.h"
+
+
+#pragma mark ——— 配置
+#define KBM_NAV_BACKGROUND_COLER KBM_CLAM_BACKGROUND_COLER  // 6.5版本导航背景颜色
+#define KBM_CLAM_BACKGROUND_COLER BM_HEX_RGB(0x121112)
+
+#define BM_CLAM_FONT(v) [UIFont systemFontOfSize:v]
+#define BM_CLAM_BOLD_FONT(v) [UIFont boldSystemFontOfSize:v]
