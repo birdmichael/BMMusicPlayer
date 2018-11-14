@@ -265,6 +265,7 @@ static const CGFloat kCoverPictureRippleCircleSize = 10;
     
     _palybtnNode = [[ASButtonNode alloc] init];
     _palybtnNode.selected = YES;
+    _palybtnNode.imageNode.hidden = YES;
     _palybtnNode.style.preferredSize = CGSizeMake(50, 50);
     _palybtnNode.contentMode = UIViewContentModeScaleAspectFit;
     _palybtnNode.imageNode.layer.masksToBounds = NO;

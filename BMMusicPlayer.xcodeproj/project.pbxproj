@@ -57,6 +57,7 @@
 		0123BB7F219C95E0006FC672 /* ASButtonNode+BMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB76219C95E0006FC672 /* ASButtonNode+BMExtension.m */; };
 		0123BB82219C96BA006FC672 /* BMHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB81219C96BA006FC672 /* BMHttpManager.m */; };
 		0123BB85219C99D5006FC672 /* BMASMRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123BB84219C99D4006FC672 /* BMASMRViewController.m */; };
+		0123BB87219CA233006FC672 /* loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 0123BB86219CA233006FC672 /* loader.json */; };
 		7E31BF842DA96A2AECEAC978 /* libPods-BMMusicPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 661E40DD23B277E324E24CA3 /* libPods-BMMusicPlayer.a */; };
 /* End PBXBuildFile section */
 
@@ -174,6 +175,7 @@
 		0123BB81219C96BA006FC672 /* BMHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMHttpManager.m; sourceTree = "<group>"; };
 		0123BB83219C99D4006FC672 /* BMASMRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMASMRViewController.h; sourceTree = "<group>"; };
 		0123BB84219C99D4006FC672 /* BMASMRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMASMRViewController.m; sourceTree = "<group>"; };
+		0123BB86219CA233006FC672 /* loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loader.json; sourceTree = "<group>"; };
 		25BED5ED35893BF5615C02AA /* Pods-BMMusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMMusicPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-BMMusicPlayer/Pods-BMMusicPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		661E40DD23B277E324E24CA3 /* libPods-BMMusicPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BMMusicPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D7E005236F2C108891AC2F4 /* Pods-BMMusicPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMMusicPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BMMusicPlayer/Pods-BMMusicPlayer.debug.xcconfig"; sourceTree = "<group>"; };
@@ -354,6 +356,7 @@
 		0123BB37219C9374006FC672 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				0123BB86219CA233006FC672 /* loader.json */,
 				0123BB38219C9374006FC672 /* Prefix.pch */,
 				0123BB39219C9374006FC672 /* Sleep.json */,
 				0123BB3A219C9374006FC672 /* Meditate.json */,
@@ -585,6 +588,7 @@
 			files = (
 				0123BB45219C9375006FC672 /* ASMR.json in Resources */,
 				0123BACF219C90FF006FC672 /* LaunchScreen.storyboard in Resources */,
+				0123BB87219CA233006FC672 /* loader.json in Resources */,
 				0123BB49219C9375006FC672 /* Video.json in Resources */,
 				0123BACC219C90FF006FC672 /* Assets.xcassets in Resources */,
 				0123BB47219C9375006FC672 /* data.json in Resources */,
