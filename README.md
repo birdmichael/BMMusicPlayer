@@ -22,7 +22,7 @@
 
 ## 截图演示(声音播放部分无法演示)
 
-![](/Users/birdmichael/Documents/GitHub/BMMusicPlayer/2.gif)
+![](https://github.com/birdmichael/BMMusicPlayer/blob/master/2.gif)
 
 ## 项目特点
 
