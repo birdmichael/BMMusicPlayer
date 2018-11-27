@@ -227,6 +227,32 @@ _coverPictureNode.imageModificationBlock = ^UIImage * _Nullable(UIImage * _Nonnu
 }
 ```
 
+停止动画：
+
+​	单纯移除动画会导致旋转归零，产生视觉不适。
+
+```
+- (void)updateCoverPictureRotating {
+    if (!_palybtnNode.selected) {
+        // 停止动画
+        CFTimeInterval pausedTime = [self.coverPictureNode.layer convertTime:CACurrentMediaTime() fromLayer:nil];
+        self.coverPictureNode.layer.speed = 0.0;
+        self.coverPictureNode.layer.timeOffset = pausedTime;
+        _animationLayer.hidden = YES;
+    }else {
+        CFTimeInterval pausedTime = [self.coverPictureNode.layer timeOffset];
+        self.coverPictureNode.layer.speed = 1.0;
+        self.coverPictureNode.layer.timeOffset = 0.0;
+        self.coverPictureNode.layer.beginTime = 0.0;
+        CFTimeInterval timeSincePause = [self.coverPictureNode.layer convertTime:CACurrentMediaTime() fromLayer:nil] - pausedTime;
+        self.coverPictureNode.layer.beginTime = timeSincePause;
+        _animationLayer.hidden = NO;
+    }
+}
+```
+
+
+
 ## 联系
 
 邮箱：[birdmichael126@gmail.com](mailto:birdmichael126@gmail.com)
